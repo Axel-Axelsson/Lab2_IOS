@@ -99,7 +99,7 @@
             </objects>
             <point key="canvasLocation" x="1038.75" y="136.26760563380282"/>
         </scene>
-        <!--Experiance-->
+        <!--Experience-->
         <scene sceneID="Vsc-sX-9qa">
             <objects>
                 <viewController id="tN6-xX-66u" customClass="ExperienceViewController" customModule="ResumeAoolication" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,7 +116,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MXN-lR-azu"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Experiance" id="Dsl-tW-whk"/>
+                    <navigationItem key="navigationItem" title="Experience" id="Dsl-tW-whk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sFb-yA-s0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
