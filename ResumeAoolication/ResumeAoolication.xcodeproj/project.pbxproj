@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71362E7A237172AD00C5D744 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71362E79237172AD00C5D744 /* SkillsViewController.swift */; };
+		716A535D236C187000DD5FF0 /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A535C236C187000DD5FF0 /* ExperienceTableViewCell.swift */; };
+		716A5361236C2A4D00DD5FF0 /* ExperienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A5360236C2A4D00DD5FF0 /* ExperienceTableViewController.swift */; };
+		716A5363236C325400DD5FF0 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A5362236C325400DD5FF0 /* WorkExperience.swift */; };
+		716A5365236C326800DD5FF0 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A5364236C326800DD5FF0 /* Education.swift */; };
 		717EDB1D2369E13300AEE578 /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDB1C2369E13300AEE578 /* CVViewController.swift */; };
-		717EDB1F2369E31F00AEE578 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDB1E2369E31F00AEE578 /* ExperienceViewController.swift */; };
 		71B11F832369B86200395619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B11F822369B86200395619 /* AppDelegate.swift */; };
 		71B11F852369B86200395619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B11F842369B86200395619 /* SceneDelegate.swift */; };
 		71B11F8A2369B86200395619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B11F882369B86200395619 /* Main.storyboard */; };
 		71B11F8C2369B86300395619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B11F8B2369B86300395619 /* Assets.xcassets */; };
 		71B11F8F2369B86300395619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B11F8D2369B86300395619 /* LaunchScreen.storyboard */; };
+		71F93366236C5A7500F5E744 /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F93365236C5A7500F5E744 /* ExperienceDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71362E79237172AD00C5D744 /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		716A535C236C187000DD5FF0 /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		716A5360236C2A4D00DD5FF0 /* ExperienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewController.swift; sourceTree = "<group>"; };
+		716A5362236C325400DD5FF0 /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
+		716A5364236C326800DD5FF0 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		717EDB1C2369E13300AEE578 /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
-		717EDB1E2369E31F00AEE578 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		71B11F7F2369B86100395619 /* ResumeAoolication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeAoolication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B11F822369B86200395619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B11F842369B86200395619 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,7 @@
 		71B11F8B2369B86300395619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B11F8E2369B86300395619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B11F902369B86300395619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F93365236C5A7500F5E744 /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,12 @@
 				71B11F8D2369B86300395619 /* LaunchScreen.storyboard */,
 				71B11F902369B86300395619 /* Info.plist */,
 				717EDB1C2369E13300AEE578 /* CVViewController.swift */,
-				717EDB1E2369E31F00AEE578 /* ExperienceViewController.swift */,
+				716A535C236C187000DD5FF0 /* ExperienceTableViewCell.swift */,
+				716A5360236C2A4D00DD5FF0 /* ExperienceTableViewController.swift */,
+				716A5362236C325400DD5FF0 /* WorkExperience.swift */,
+				716A5364236C326800DD5FF0 /* Education.swift */,
+				71F93365236C5A7500F5E744 /* ExperienceDetailViewController.swift */,
+				71362E79237172AD00C5D744 /* SkillsViewController.swift */,
 			);
 			path = ResumeAoolication;
 			sourceTree = "<group>";
@@ -141,10 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717EDB1F2369E31F00AEE578 /* ExperienceViewController.swift in Sources */,
+				716A5365236C326800DD5FF0 /* Education.swift in Sources */,
+				71F93366236C5A7500F5E744 /* ExperienceDetailViewController.swift in Sources */,
 				717EDB1D2369E13300AEE578 /* CVViewController.swift in Sources */,
+				716A535D236C187000DD5FF0 /* ExperienceTableViewCell.swift in Sources */,
+				71362E7A237172AD00C5D744 /* SkillsViewController.swift in Sources */,
 				71B11F832369B86200395619 /* AppDelegate.swift in Sources */,
 				71B11F852369B86200395619 /* SceneDelegate.swift in Sources */,
+				716A5363236C325400DD5FF0 /* WorkExperience.swift in Sources */,
+				716A5361236C2A4D00DD5FF0 /* ExperienceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

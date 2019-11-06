@@ -1,22 +1,40 @@
 //
-//  ExperienceViewController.swift
+//  SkillsViewController.swift
 //  ResumeAoolication
 //
-//  Created by Axel Axelsson on 2019-10-30.
+//  Created by Axel Axelsson on 2019-11-05.
 //  Copyright © 2019 Axel Axelsson. All rights reserved.
 //
 
 import UIKit
 
-class ExperienceViewController: UIViewController {
+class SkillsViewController: UIViewController {
 
+    @IBOutlet weak var AnimatedView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        AnimatedView.backgroundColor = UIColor.green
+       
+        
         // Do any additional setup after loading the view.
     }
     
-
+    override func viewDidAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 1) {
+                self.AnimatedView.backgroundColor = UIColor.red
+        }
+    }
+    
+    @IBAction func CloseButton(_ sender: Any) {
+       
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
